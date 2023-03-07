@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-nwbe
+  namespace: jvm-build-ktrm-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:c52cdf6d60aa082f800e50a4b41d49316c6834ab8ccc010249428da5b2750ba8
+        name: container-image
+        resources: {}
+status: {}
