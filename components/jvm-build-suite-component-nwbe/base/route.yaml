@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-nwbe
     app.kubernetes.io/part-of: jvm-build-suite-application-eqru
-  name: jvm-build-suite-componentxv3n
+  name: jvm-build-suite-componentj13e
   namespace: jvm-build-ktrm-tenant
 spec:
   port:

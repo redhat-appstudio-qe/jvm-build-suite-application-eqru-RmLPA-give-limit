@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-nwbe
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:5cc94920d7e24697b5561ef16d8f57ff
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:c52cdf6d60aa082f800e50a4b41d49316c6834ab8ccc010249428da5b2750ba8
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
